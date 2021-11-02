@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    margin: 5% 15% 0;
+    background-color: #393E46;
+}
+.title{
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    font-size: 700%;
+    text-align: center;
+    letter-spacing: 0.125em;
+
+    color: #AAD8D3;
+}
+
+.navBarContainer{
+    margin-bottom: 5%;
+    
+}
+
+.desc{
+    text-align: center;
+    font-size: 140%;
+    color: rgb(160, 159, 159);
+
+    margin: 0 25%;
+    padding-bottom: 2%;
+}
+.navbarSep{
+    background-color: rgb(255, 255, 255);
+    border-top:1px 
+
+}
+.seperator{
+    background-color: rgb(255, 255, 255);
+    border-top:1px dotted
+}
+.navBarz{
+    overflow:hidden;
+    width: 100%;
+    text-align: center;
+    margin: 0%;
+    padding: 2% 5%;
+}
+
+.navBarz li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10%;
+    width: auto;
+    font-size: 130%;
+    color: #AAD8D3;
+}
+a{
+    text-decoration: none;
+    color: #AAD8D3;
+
+}
+.carasoulContainer{
+    margin: 5% 10% 0 ;
+}
+
+.carouselItem{
+    height: 50%;
+}
+a:hover{
+    color: #EEEEEE;
+}
+.title:hover{
+    color: #EEEEEE;
+
+}
+@media screen and (max-width: 800px) {
+    .title{
+        font-size: 100%;
+    }
+    .desc{
+        font-size: 50%;
+    }
+}

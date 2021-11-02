@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+html, body{
+    margin: 0;
+    height: 100%;
+    background-color: beige;
+    overflow: hidden;
+}
+.headcontainer{
+    margin: 0;
+    font-size: 5rem;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.container{
+    margin: 0;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 200%;
+}
+#name{
+    font-size: 700%;
+    letter-spacing: 10px;
+    font-family: 'Roboto', sans-serif;
+    white-space: nowrap;
+}
+
+#backgroundImg{
+    height: 100%; 
+    width: 100%;
+}
+
+.button{
+    width: 40%;
+    border-style: solid;
+    border-color: #fff;
+    margin-left: 30%;
+    color: #fff;
+    padding: 1% 0;
+    overflow: none;
+
+}
+a{
+    text-decoration: none;
+
+}
+
+
+
+
+@media screen and (max-width: 1700px) {
+  .headcontainer{
+    margin: 0;
+    font-size: 4rem;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    
+
+	}
+	#name{
+		font-size: 4vw;
+		letter-spacing: 10px;
+		font-family: 'Roboto', sans-serif;
+		white-space: nowrap;
+	}
+	.button{
+		width: 40%;
+		border-style: solid;
+		border-color: #fff;
+		margin-left: 30%;
+		color: #fff;
+		padding: 1% 0;
+		overflow: none;
+
+	}
+}
+@media screen and (max-width: 600px) {
+    .headcontainer{
+      margin: 0;
+      font-size: 2rem;
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      
+  
+      }
+      .container{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-size: 200%;
+    }
+      #name{
+          font-size: 5vw;
+          letter-spacing: 10px;
+          font-family: 'Roboto', sans-serif;
+      }
+      .button{
+          width: 70%;
+          border-style: solid;
+          border-color: #fff;
+          margin-left: 15%;
+          color: #fff;
+          padding: 1% 0;
+          overflow: none;
+  
+      }
+  }
+
+
+
+.button:hover{
+    background-color: #fff;
+    color: #000;
+}
